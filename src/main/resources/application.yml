@@ -3,9 +3,7 @@ server.port: 8080
 # Database settings
 spring:
   datasource:
-    url: < database url >
-    username: < username >
-    password: < password >
+    url: jdbc:h2:mem:mydb
 
 # Sample data generation
 data.generate.sample: false
